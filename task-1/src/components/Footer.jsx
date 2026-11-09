@@ -4,7 +4,7 @@ function Footer() {
  <footer className="footer">
 <div className="footer-container">
  <div className="footer-brand">
-  <h2><span>V</span> Talora</h2>
+  <h2><span>T</span> Talora</h2>
  <p> Gələcəyini bizimlə qur!  Bilik qazan, təcrübə əldə et və inkişaf et.</p>
                 </div>
 
