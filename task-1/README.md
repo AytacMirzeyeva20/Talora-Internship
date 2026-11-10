@@ -12,6 +12,7 @@ Installation and Setup
 1. npm create vite@latest ./
 2. npm run dev 
 3. React Icons website -npm install i
+https://react-icons.github.io/react-icons/search/#q=facebook
 
 Features
 Semantic HTML elements are used.

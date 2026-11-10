@@ -1,7 +1,7 @@
-import {  FaWhatsapp,FaLinkedin, FaInstagram } from "react-icons/fa";
+import {  FaWhatsapp,FaFacebook, FaInstagram } from "react-icons/fa";
 function Footer() {
     return (
- <footer className="footer">
+ <footer className="footer" id="contact">
 <div className="footer-container">
  <div className="footer-brand">
   <h2><span>T</span> Talora</h2>
@@ -18,13 +18,13 @@ function Footer() {
 <div className="footer-social">
                     <h3>Bizi izləyin</h3>
                      <div className="social-icons">
-                        <a href="#" aria-label="GitHub">
+                        <a href="https://wa.me/994XXXXXXXXX" target="_blank" aria-label="WhatsApp">
                             <FaWhatsapp />
                         </a>
-                        <a href="#" aria-label="LinkedIn">
-                            <FaLinkedin />
+                        <a href="https://www.facebook.com/username/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                            <FaFacebook />
                         </a>
-                        <a href="#" aria-label="Instagram">
+                        <a href="https://www.instagram.com/username/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                             <FaInstagram />
                         </a>
                     </div>

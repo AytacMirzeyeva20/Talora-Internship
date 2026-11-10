@@ -4,7 +4,8 @@ import { FaChartLine } from "react-icons/fa6";
 function About(){
     return(
         <>
-        <h3 className="texting-head">Niyə bizim proqram?</h3>
+        <section id="about">
+        <h2 className="texting-head">Niyə bizim proqram?</h2>
         <div className="about">
             <div className="about-item">
                 <MdComputer className="texting-icon" />
@@ -19,6 +20,7 @@ function About(){
                 <p className="texting">İnkişaf</p>
             </div>
         </div>
+        </section>
         </>
     )
 }
